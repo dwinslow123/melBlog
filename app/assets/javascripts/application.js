@@ -11,7 +11,7 @@
 // about supported directives.
 //
 //= require ckeditor/init
-//= require jquery
+//= require jquery/dist/jquery
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
