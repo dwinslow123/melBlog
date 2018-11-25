@@ -12,7 +12,11 @@
         </div>
 
         <div class="text-center">
-          <%= link_to "READ MORE", post_path(post) %>
+          <%= link_to "READ MORE", post_path(post), class: "btn btn-primary" %>
+        </div>
+        <div>
+          <%= link_to "DELETE", post_path(post), class: "btn btn-default", data: {:confirm => "Are you sure?"}, method: :delete %>
+          <%= link_to "EDIT", edit_post_path(post), class: "btn btn-default" %>
         </div>
       </div>
     <% end %>
