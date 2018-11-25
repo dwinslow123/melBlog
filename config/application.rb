@@ -8,6 +8,7 @@ Bundler.require(*Rails.groups)
 
 module MelBlog
   class Application < Rails::Application
+    config.assets.initalize_on_precompile = false
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
 
